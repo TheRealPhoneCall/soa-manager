@@ -1,0 +1,4 @@
+/* Remove the asterisk in django forms */
+.asteriskField {
+    display: none;
+}

@@ -1,0 +1,11 @@
+*~
+*.py[co]
+
+# Database
+soamgrdb.sqlite3
+
+# Do not ignore collectstatic when working in GAE
+#collectstatic/
+
+# Ignore Work in Progress
+wip/

@@ -1,0 +1,15 @@
+/* We do all this on the content div now */
+#hero {
+    padding: 300px 0;
+    background: url(../img/hero.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+/* This makes the input elements look much too big */
+#hero input {
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 1px 2px 10px #333;
+    font-size: 26px;
+    color: #aeacac;
+}

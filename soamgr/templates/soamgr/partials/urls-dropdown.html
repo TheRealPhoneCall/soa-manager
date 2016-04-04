@@ -1,0 +1,39 @@
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">URLs <span class="caret"></span></a>
+  <ul class="dropdown-menu">
+    <li><a href="{% url 'admin:index' %}">admin</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="{% url 'soamgr:index' %}">100-index</a></li>
+    <li><a href="{% url 'soamgr:home' %}">110-home</a></li>
+    <li><a href="{% url 'login' %}">130-login</a></li>
+    <li><a href="{% url 'logout' %}">180-logout</a></li>
+    <li role="separator" class="divider"></li>
+    <li class="dropdown-header">Adviser's URLs</li>
+    <li><a href="{% url 'soamgr:adviser-main' %}">200-adviser-main</a></li>
+    <li><a href="{% url 'soamgr:adviser-order-soa' %}">210-adviser-order-soa</a></li>
+    <li><a href="{% url 'soamgr:adviser-review-oa' %}">220-adviser-review-oa</a></li>
+    <li><a href="{% url 'soamgr:adviser-buy-credit' %}">230-adviser-buy-credit</a></li>
+    <li><a href="{% url 'soamgr:adviser-preferences' %}">240-adviser-preferences</a></li>
+    <li><a href="{% url 'soamgr:manage-advisers' %}">300-manage-advisers</a></li>
+    <li role="separator" class="divider"></li>
+    <li class="dropdown-header">QPP's URLs</li>
+    <li><a href="{% url 'soamgr:qpp-main' %}">400-qpp-main</a></li>
+    <li><a href="{% url 'soamgr:qpp-create-oa' %}">410-qpp-create-oa</a></li>
+    <li><a href="{% url 'soamgr:qpp-manage-paraplanners' %}">420-qpp-manage-paraplanners</a></li>
+    <li><a href="{% url 'soamgr:qpp-manage-users' %}">430-qpp-manage-users</a></li>
+    <li><a href="{% url 'soamgr:qpp-manage-system' %}">440-qpp-manage-system</a></li>
+    <li role="separator" class="divider"></li>
+    <li class="dropdown-header">Paraplanner's URLs</li>
+    <li><a href="{% url 'soamgr:paraplanner-main' %}">600-paraplanner-main</a></li>
+    <li><a href="{% url 'soamgr:paraplanner-claim-job' %}">610-paraplanner-claim-job</a></li>
+    <li><a href="{% url 'soamgr:paraplanner-job-status' %}">620-paraplanner-job-status</a></li>
+    <li><a href="{% url 'soamgr:paraplanner-profile' %}">630-paraplanner-profile</a></li>
+    <li><a href="{% url 'soamgr:paraplanner-notes' %}">640-paraplanner-notes</a></li>
+    <li role="separator" class="divider"></li>
+    <li class="dropdown-header">Legal</li>
+    <li><a href="{% url 'soamgr:license-information' %}">900-license-information</a></li>
+    <li><a href="{% url 'soamgr:legal-agreements' %}">910-legal-agreements</a></li>
+    <li><a href="{% url 'soamgr:terms-of-use' %}">920-terms-of-use</a></li>
+    <li><a href="{% url 'soamgr:privacy-policy' %}">930-privacy-policy</a></li>
+  </ul>
+</li>

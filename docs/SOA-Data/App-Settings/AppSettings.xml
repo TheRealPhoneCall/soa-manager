@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BridgePackage>
+  <App Name="Application1" Version="1.0" GUID="APADB65BE184BB4F1DB36C8F374F4776D17E01144E0930000009000000284E09300000010000100000000000000000000000000000000000000000000000000000000000000000B8" Description="" FullApp="True" DataPackage="True" BridgeVersionCreated="9.0.4" BridgeVersionChanged="" ObjectDateCreated="2016-01-19T21:29:23" ObjectDateChanged="" ExportFormat="Custom" AuthorID="4E093000">
+    <AppObjects>
+      <Object Type="TB" GUID="TB655D5CCDDBF34E2BAD315EB7D468864B7E01144E0930000009000000284E09300000010000100000000000000000000000000000000000000000000000000000000000000000CC" Name="SOA_Data" AppInitialSignature="4E09300000010000" ObjectInitialSignature="4E09300000010000" ObjectDateAdded="" BridgeVersionCreated="8.2.0" BridgeVersionChanged="8.7.7" ObjectDateCreated="2014-08-10T01:57:07" ObjectDateChanged="2015-08-12T20:45:56" DefaultImportAction="NEW" File="SOA_Data_2016-Jan-20_1629.csv" DataDateUpdated="2016-01-20T05:18:18" FileType="TextTables" HasColumnHeader="True" FileFormat="CSVDelimited" />
+    </AppObjects>
+  </App>
+</BridgePackage>

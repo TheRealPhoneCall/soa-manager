@@ -1,0 +1,50 @@
+[
+{
+    "model": "auth.group",
+    "pk": 10,
+    "fields": {
+        "name": "adviser:admin",
+        "permissions": []
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 11,
+    "fields": {
+        "name": "adviser:regular",
+        "permissions": []
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 20,
+    "fields": {
+        "name": "qpp:admin",
+        "permissions": []
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 21,
+    "fields": {
+        "name": "qpp:director",
+        "permissions": []
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 22,
+    "fields": {
+        "name": "qpp:manager",
+        "permissions": []
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 30,
+    "fields": {
+        "name": "paraplanner:regular",
+        "permissions": []
+    }
+}
+]

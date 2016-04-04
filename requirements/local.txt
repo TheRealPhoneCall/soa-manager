@@ -1,0 +1,7 @@
+# These packages are only needed on the development server, so they should not be vendored (not installed on the lib directory),
+#   but installed in the virtalenv
+
+dj-database-url==0.3.0
+pip-tools==1.5
+django-extensions==1.6.1
+MySQL-python==1.2.5

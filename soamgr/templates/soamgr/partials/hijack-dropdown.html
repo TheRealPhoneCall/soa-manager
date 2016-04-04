@@ -1,0 +1,16 @@
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hijack <span class="caret"></span></a>
+  <ul class="dropdown-menu">
+    <li class="dropdown-header">Advisers</li>
+    <li><a href="{% url 'login_with_username' 'test-aa' %}">Adviser Admin</a></li>
+    <li><a href="{% url 'login_with_username' 'test-ar' %}">Adviser Regular</a></li>
+    <li role="separator" class="divider"></li>
+    <li class="dropdown-header">QPP</li>
+    <li><a href="{% url 'login_with_username' 'test-qa' %}">QPP Admin</a></li>
+    <li><a href="{% url 'login_with_username' 'test-qd' %}">QPP Director</a></li>
+    <li><a href="{% url 'login_with_username' 'test-qm' %}">QPP Manager</a></li>
+    <li role="separator" class="divider"></li>
+    <li class="dropdown-header">Paraplanners</li>
+    <li><a href="{% url 'login_with_username' 'test-pr' %}">Paraplanner Regular</a></li>
+  </ul>
+</li>
